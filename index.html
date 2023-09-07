@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversion Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  
+  <h1>Simple Conversion Calculator</h1>
+
+  <div class="container">
+
+  <div class="inch-column">
+  <p>Type here to convert Inches to Meter</p>
+  <input type="number" id="inch-meter" oninput="inchMeter()">In
+  <p id="inchMeter"></p>
+
+  <p>Type here to convert Inches to Centimeter</p>
+  <input type="number" id="inch-centi" oninput="inchCenti()">In
+  <p id="inchCenti"></p>
+
+  <p>Type here to convert Inches to Millimeter</p>
+  <input type="number" id="inch-milli" oninput="inchMilli()">In
+  <p id="inchMilli"></p>
+  </div>
+  
+
+  <div class="meter-column">
+  <p>Type here to convert Meter to Inches</p>
+  <input type="number" id="meter-inch" oninput="meterInch()">M
+  <p id="meterInch"></p>
+
+  <p>Type here to convert Meter to Centimeter</p>
+  <input type="number" id="meter-centi" oninput="meterCenti()">M
+  <p id="meterCenti"></p>
+
+  <p>Type here to convert Meter to Millimeter</p>
+  <input type="number" id="meter-milli" oninput="meterMilli()">M
+  <p id="meterMilli"></p>
+  </div>
+
+
+  <div class="centi-column">
+  <p>Type here to convert Centimeter to Meter</p>
+  <input type="number" id="centi-meter" oninput="centiMeter()">cm
+  <p id="centiMeter"></p>
+
+  <p>Type here to convert Centimeter to Inches</p>
+  <input type="number" id="centi-inch" oninput="centiInch()">cm
+  <p id="centiInch"></p>
+
+  <p>Type here to convert Centimeter to Millimeter</p>
+  <input type="number" id="centi-milli" oninput="centiMilli()">cm
+  <p id="centiMilli"></p>
+  </div>
+
+
+  <div class="milli-column">
+  <p>Type here to convert Millimeter to Meter</p>
+  <input type="number" id="milli-meter" oninput="milliMeter()">mm
+  <p id="milliMeter"></p>
+
+  <p>Type here to convert Millimeter to Inches</p>
+  <input type="number" id="milli-inch" oninput="milliInch()">mm
+  <p id="milliInch"></p>
+
+  <p>Type here to convert Millimeter to Centimeter</p>
+  <input type="number" id="milli-centi" oninput="milliCenti()">mm
+  <p id="milliCenti"></p>
+  </div>
+  </div>
+  
+
+
+  
+</body>
+</html>
